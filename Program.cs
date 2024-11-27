@@ -1,29 +1,16 @@
-﻿string name = Console.ReadLine();
-Console.WriteLine("Привет, " + name);
-
-int age = int.Parse(Console.ReadLine());
-Console.WriteLine(2024 - age);
+﻿int num1 = int.Parse(Console.ReadLine());
+int num2 = int.Parse(Console.ReadLine());
+Console.WriteLine(num1 + num2);
 
 //
 
-string name1 = Console.ReadLine();
-int phone = int.Parse(Console.ReadLine());
-Console.WriteLine("Контакт сохранён." + '\n' + name1 + " - " + phone);
-
-int a = int.Parse(Console.ReadLine());
-int b = int.Parse(Console.ReadLine());
-if (a > b)
+int nums = 28;
+int n = int.Parse(Console.ReadLine());
+if (nums < n)
 {
-    Console.WriteLine(a);
+    Console.WriteLine("Число меньше");
 }
 else
 {
-    Console.WriteLine(b);
+    Console.WriteLine("Число больше");
 }
-
-//
-
-int num = int.Parse(Console.ReadLine());
-Console.WriteLine((num / 100) % 10);
-Console.WriteLine((num / 10) % 10);
-Console.WriteLine(num % 10);
